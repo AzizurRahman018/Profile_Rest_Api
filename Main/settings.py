@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'new',
 ]
 
 MIDDLEWARE = [
@@ -118,4 +119,4 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-#AUTH_USER_MODEL = 'profiles_api.UserProfile'
+AUTH_USER_MODEL= 'new.userprofile'
