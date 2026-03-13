@@ -119,4 +119,4 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-AUTH_USER_MODEL= 'new.userprofile'
+AUTH_USER_MODEL= 'new.UserProfile'
