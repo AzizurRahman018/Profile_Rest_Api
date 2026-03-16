@@ -6,3 +6,8 @@ class HelloapiView(APIView):
     """
     This is the api view for hello api
     """
+    def get(self, request, format=None):
+        an_apiview = [
+
+        ]
+        return Response({'hello':'world'})
